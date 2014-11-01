@@ -26,11 +26,11 @@ You may also be interested in:
 
 [![NPM](https://nodei.co/npm/triangle-circle-collision.png)](https://nodei.co/npm/triangle-circle-collision/)
 
-#### `collide(triangle, circle, radius[, clockwise])`
+#### `collide(triangle, circle, radius)`
 
-Returns true if the circle intersects a triangle vertex, edge, or if it's fully enclosed by the triangle. This will test the orientation of the triangle assuming a coordinate space like that in HTML5 canvas (upper left).
+Returns true if the circle intersects a triangle edge or if it's fully enclosed by the triangle. Returns false if no collision occurs.
 
-If the direction is known, you can provide a boolean to `clockwise` to avoid the additional orientation check. 
+This uses barycentric coordinates to determine if the point is within the circle, and then tests the circle against each edge of the triangle.
 
 ## License
 

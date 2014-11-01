@@ -1,0 +1,49 @@
+{
+  "name": "triangle-circle-collision",
+  "version": "1.0.0",
+  "description": "detect if a 2D triangle and circle collide",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "is-clockwise": "^1.0.0",
+    "line-circle-collision": "^1.1.1"
+  },
+  "devDependencies": {
+    "add-event-listener": "0.0.1",
+    "canvas-testbed": "^1.0.2",
+    "events": "^1.0.2",
+    "mouse-event-offset": "^1.0.2",
+    "mouse-position": "^1.0.0",
+    "tape": "^3.0.1"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "collide",
+    "collision",
+    "collided",
+    "hit",
+    "test",
+    "hittest",
+    "circle",
+    "triangle",
+    "tris",
+    "tri",
+    "pointintersect",
+    "intersection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/triangle-circle-collision.git"
+  },
+  "homepage": "https://github.com/mattdesl/triangle-circle-collision",
+  "bugs": {
+    "url": "https://github.com/mattdesl/triangle-circle-collision/issues"
+  }
+}

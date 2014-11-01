@@ -2,7 +2,7 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-Detects if a circle collides with or is fully inside of a triangle. This is well suited for 2D canvas games with an upper-left origin. 
+Detects if a circle collides with or is fully inside of a triangle. 
 
 ```js
 var collide = require('triangle-circle-collision')
@@ -14,6 +14,13 @@ var point = [25, 15],
 //returns true if collision occurs
 console.log( collide(triangle, point, radius) )
 ```
+
+You may also be interested in:
+
+- [point-in-triangle](https://www.npmjs.org/package/point-in-triangle)
+- [line-circle-collision](https://www.npmjs.org/package/line-circle-collision)
+- [point-circle-collision](https://www.npmjs.org/package/point-circle-collision)
+- [is-clockwise](https://www.npmjs.org/package/is-clockwise)
 
 ## Usage
 

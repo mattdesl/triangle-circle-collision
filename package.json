@@ -1,6 +1,6 @@
 {
   "name": "triangle-circle-collision",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "detect if a 2D triangle and circle collide",
   "main": "index.js",
   "license": "MIT",

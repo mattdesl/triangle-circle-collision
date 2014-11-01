@@ -35,5 +35,4 @@ function render(ctx, width, height) {
         ctx.closePath()
         ctx.stroke()
     })
-    console.log(mouse)
 }

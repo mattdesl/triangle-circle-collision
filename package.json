@@ -14,11 +14,7 @@
     "line-circle-collision": "^1.1.1"
   },
   "devDependencies": {
-    "add-event-listener": "0.0.1",
     "canvas-testbed": "^1.0.2",
-    "events": "^1.0.2",
-    "mouse-event-offset": "^1.0.2",
-    "mouse-position": "^1.0.0",
     "tape": "^3.0.1",
     "touch-position": "^1.0.1"
   },

@@ -10,8 +10,8 @@
     "url": "https://github.com/mattdesl"
   },
   "dependencies": {
-    "is-clockwise": "^1.0.0",
-    "line-circle-collision": "^1.1.1"
+    "line-circle-collision": "^1.1.1",
+    "point-in-triangle": "^1.0.0"
   },
   "devDependencies": {
     "canvas-testbed": "^1.0.2",

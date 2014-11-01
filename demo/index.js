@@ -2,13 +2,14 @@ require('canvas-testbed')(render)
 var collision = require('../')
 
 var tris = [
-    [[25,50], [20,140], [70, 140]],
+    [[50,50], [400,140], [70, 140]],
+    [[100, 300], [50, 300], [150, 350]],
     [[350,300], [450,450], [350, 450]], 
-    [[150, 450], [250,450], [150,300]], //same but reverse order
-    [[100,150], [100,70], [170, 40]]
+    [[150, 450], [250,450], [150,300]], 
+    [[125,150], [100,70], [170, 40]]
 ]
 
-var radius = 25,
+var radius = 5,
     mouse = require('touch-position')({ position: [150, 150] })
 
 function render(ctx, width, height) {

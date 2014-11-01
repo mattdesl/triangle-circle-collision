@@ -1,7 +1,6 @@
 require('canvas-testbed')(render)
 var collision = require('../')
 
-
 var tris = [
     [[25,50], [20,140], [70, 140]],
     [[350,300], [450,450], [350, 450]], 
@@ -10,7 +9,7 @@ var tris = [
 ]
 
 var radius = 25,
-    mouse = require('./touch-position')({ position: [150, 150] })
+    mouse = require('touch-position')({ position: [150, 150] })
 
 function render(ctx, width, height) {
     ctx.clearRect(0, 0, width, height)
